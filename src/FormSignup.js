@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import useForm from './useForm';
 import validate from './validateInfo';
 import './Form.css';
@@ -84,6 +84,7 @@ const FormSignup = ({submitForm}) => {
                 <button 
                     className="form-input-btn"
                     type="submit"
+                    name="submit"
                 >
                     Sign up
                 </button>
